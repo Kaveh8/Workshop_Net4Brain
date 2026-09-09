@@ -17,16 +17,16 @@ The workshop combines two modalities for every tissue spot:
 Steps are **demonstrated** on healthy cortex, then **repeated by students** on tumour tissue.
 
 
-|                             | Demonstration                              | Student mini-project             |
-| --------------------------- | ------------------------------------------ | -------------------------------- |
-| **Tissue**                  | Healthy human DLPFC                        | Human glioblastoma, IDH-wildtype |
-| **Spots**                   | 12,000                                     | 35,187                           |
-| **Subjects**                | 3 donors, 12 sections                      | 6 patients, 15 sections          |
-| **Genes**                   | 1,000 highly variable                      | 2,000 highly variable            |
-| **Flux modules**            | 168                                        | 168                              |
-| **Prediction task**         | Superficial (L1–L3) vs deep (L4–L6) layers | Tumour core vs periphery         |
-| **Grouping for evaluation** | Donor                                      | Patient                          |
-| **Notebook**                | `Demo_DLPFC.ipynb`                         | `Try_GBM.ipynb`                  |
+|                             | Demonstration | Student mini-project |
+| --------------------------- | ------------- | -------------------- |
+| **Tissue**                  | Healthy human DLPFC | Human glioblastoma, IDH-wildtype |
+| **Spots**                   | 12,000 | 35,187 |
+| **Subjects**                | 3 donors, 12 sections | 6 patients, 15 sections |
+| **Genes**                   | 1,000 highly variable | 2,000 highly variable |
+| **Flux modules**            | 168 | 168 |
+| **Prediction task**         | Superficial (L1-L3) vs deep (L4-L6) layers | Tumour core vs periphery |
+| **Grouping for evaluation** | Donor | Patient |
+| **Notebook** | `Demo_DLPFC.ipynb` <a target="_blank" href="https://colab.research.google.com/github/Occhipinti-Lab/Workshop_Net4Brain/blob/main/Demo_DLPFC.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | `Try_GBM.ipynb` <a target="_blank" href="https://colab.research.google.com/github/Occhipinti-Lab/Workshop_Net4Brain/blob/main/Try_GBM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 Each notebook is divided into **Day 1 / Day 2 / Day 3** sections matching the schedule below.
@@ -52,7 +52,7 @@ SHAP plot and the logistic coefficients.
 ### Locally
 
 ```bash
-git clone https://github.com/Kaveh8/Workshop_Net4Brain.git
+git clone https://github.com/Occhipinti-Lab/Workshop_Net4Brain.git
 cd Workshop_Net4Brain
 pip install numpy pandas matplotlib scanpy scikit-learn shap jupyter
 jupyter notebook
